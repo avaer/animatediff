@@ -10,7 +10,7 @@ ToonYou:
   guidance_scale: 7.5
 
   prompt:
-    - "anime girl witch hacer grinning wide, evil monster, typing magical computer hacker, iphone hologram, alien flowers"
+    - "anime girl witch hacker grinning wide, evil monster, typing magical computer hacker, iphone hologram, alien flowers"
 
   n_prompt:
     - "bad,ugly,bad artist,blurry image,low resolution"
