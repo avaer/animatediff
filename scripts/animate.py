@@ -113,6 +113,7 @@ def main(args):
             random_seeds = random_seeds * len(prompts) if len(random_seeds) == 1 else random_seeds
             
             config[config_key].random_seed = []
+            print(f"motion module: {prompt} {n_prompt}")
             for prompt_idx, (prompt, n_prompt, random_seed) in enumerate(zip(prompts, n_prompts, random_seeds)):
                 
                 # manually set random seed for reproduction
