@@ -10,8 +10,8 @@ ToonYou:
   guidance_scale: 7.5
 
   prompt:
-    - "young thin nudist girl at the pool, grimes"
+    - "cute young thin girl at the pool, trendy rainbow hair"
 
   n_prompt:
-    - "bad,ugly,bad artist,blurry image,low resolution"
+    - "bad,ugly,bad artist,blurry,low resolution"
     #- "badhandv4,easynegative,ng_deepnegative_v1_75t,verybadimagenegative_v1.3, bad-artist, bad_prompt_version2-neg"
