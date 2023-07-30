@@ -10,7 +10,8 @@ ToonYou:
   guidance_scale: 7.5
 
   prompt:
-    - "young 13 year old anime girl running through a neotokyo sakura street, lush nature, skyscrapers, path, trees, flowers"
+    - "young 13 year old anime girl running through a neotokyo street at night, magical glyphs"
 
   n_prompt:
-    - "badhandv4,easynegative,ng_deepnegative_v1_75t,verybadimagenegative_v1.3, bad-artist, bad_prompt_version2-neg"
+    - "bad,ugly,bad artist,blurry image,low resolution"
+    #- "badhandv4,easynegative,ng_deepnegative_v1_75t,verybadimagenegative_v1.3, bad-artist, bad_prompt_version2-neg"
