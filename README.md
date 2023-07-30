@@ -1,6 +1,12 @@
 # AnimateDiff
 
-This repository is the official implementation of [AnimateDiff](https://arxiv.org/abs/2307.04725).
+This repository is a fork of [AnimateDiff](https://arxiv.org/abs/2307.04725) with realtime Flask web server support.
+
+I needed this to run this amazing model for a hackathon, so this is definitely a hack but it works.
+
+For basic security reasons, you must whitelist your models in [scripts/animate.py]().
+
+---
 
 **[AnimateDiff: Animate Your Personalized Text-to-Image Diffusion Models without Specific Tuning](https://arxiv.org/abs/2307.04725)**
 </br>
@@ -98,6 +104,7 @@ python -m scripts.animate --config configs/prompts/5-RealisticVision.yaml
 python -m scripts.animate --config configs/prompts/6-Tusun.yaml
 python -m scripts.animate --config configs/prompts/7-FilmVelvia.yaml
 python -m scripts.animate --config configs/prompts/8-GhibliBackground.yaml
+python -m scripts.animate --config configs/prompts/9-flat2d.yaml
 ```
 
 To generate animations with a new DreamBooth/LoRA model, you may create a new config `.yaml` file in the following format:
