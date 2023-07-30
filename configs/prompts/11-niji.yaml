@@ -1,0 +1,17 @@
+ToonYou:
+  base: ""
+  path: "models/StableDiffusion/nijijourneyV51-000006.safetensors"
+  motion_module:
+    - "models/Motion_Module/mm_sd_v14.ckpt"
+    - "models/Motion_Module/mm_sd_v15.ckpt"
+
+  seed:           [-1]
+  steps:          25
+  guidance_scale: 7.5
+
+  prompt:
+    - "anime girl witch, magical glyphs"
+
+  n_prompt:
+    - "bad,ugly,bad artist,blurry image,low resolution"
+    #- "badhandv4,easynegative,ng_deepnegative_v1_75t,verybadimagenegative_v1.3, bad-artist, bad_prompt_version2-neg"
