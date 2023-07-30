@@ -10,7 +10,8 @@ ToonYou:
   guidance_scale: 7.5
 
   prompt:
-    - "cute young thin girl at the pool, trendy rainbow hair"
+    - "cute young thin girl, legs spread, attacked by a horrifying creature, screaming, trendy rainbow hair"
+    # - "cute young thin girl nude at the pool, trendy rainbow hair"
 
   n_prompt:
     - "bad,ugly,bad artist,blurry,low resolution"
