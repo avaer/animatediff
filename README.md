@@ -6,6 +6,23 @@ I needed this to run this amazing model for a hackathon, so this is definitely a
 
 For basic security reasons, you must whitelist your models in [scripts/animate.py]().
 
+## Instructions
+
+
+Put your Stable Diffusion models (`.safetensors`) into `models/StableDiffusion/`.
+
+```
+git clone https://github.com/avaer/AnimateDiff.git
+cd AnimateDiff
+conda env create -f environment.yaml
+conda activate animatediff
+./run.sh
+ curl -X POST 'http://127.0.0.1:8080/animatediff' \
+    -F 'prompt=full body anime girl in a summer dress walking through abandoned neotokyo city, symbols, lush ancient jungle nature overgrowth, colorful' \
+    -F 'n_prompt=ugly,blurry,low resolution' \
+    -F 'model=flat2dAnimergeV3F16.vzgC.safetensors'
+```
+
 ---
 
 **[AnimateDiff: Animate Your Personalized Text-to-Image Diffusion Models without Specific Tuning](https://arxiv.org/abs/2307.04725)**
