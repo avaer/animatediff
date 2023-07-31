@@ -96,7 +96,7 @@ def generate_gif(prompt, n_prompt, model):
             n_prompt=[
                 n_prompt,
             ],
-        )
+        ),
     }
     samples = []
     
@@ -265,5 +265,6 @@ def animate_diff():
     return send_file(gif_data, mimetype='image/gif')
 
 if __name__ == '__main__':
+    printf(f"Running 0.0.0.0:1289")
     # single threaded for simplicity
     app.run(host='0.0.0.0', port=1289, threaded=False)
