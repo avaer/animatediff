@@ -233,6 +233,9 @@ def animate_diff():
     if n_prompt == "":
         return "n_prompt is empty", 400
     model = request.form['model']
+    # ensure the model does not have path slashes or ..
+    if "/" in model or ".." in model:
+        return "invalid model", 400
     # if the model is not in allowed_models, return 400 "invalid model"
     if model not in allowed_models:
         return "invalid model", 400
