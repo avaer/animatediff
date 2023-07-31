@@ -80,23 +80,6 @@ def generate_gif(prompt, n_prompt, model):
 
     # config  = OmegaConf.load(args.config)
     config = {
-        # 'ModelName': {
-        #     'base': '',
-        #     'path': f"models/StableDiffusion/${model}",
-        #     'motion_module': [
-        #         # 'models/Motion_Module/mm_sd_v14.ckpt',
-        #         'models/Motion_Module/mm_sd_v15.ckpt',
-        #     ],
-        #     'seed': [-1],
-        #     'steps': 25,
-        #     'guidance_scale': 7.5,
-        #     'prompt': [
-        #         prompt,
-        #     ],
-        #     'n_prompt': [
-        #         n_prompt,
-        #     ],
-        # }
         'ModelName': Namespace(
             base='',
             path=f"models/StableDiffusion/{model}",
