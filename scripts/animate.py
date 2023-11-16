@@ -56,6 +56,7 @@ allowed_models = [
     "flat2dAnimergeV3F16.vzgC.safetensors",
     "nijijourneyV51-000006.safetensors"
     "clarity2Fp16.sapf.safetensors",
+    "mistoonAnime_v20",
 ]
 pipeline_cache = {}
 def generate_gif(prompt, n_prompt, model):
