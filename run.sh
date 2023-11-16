@@ -1,2 +1,2 @@
 #!/bin/bash
-python -m scripts.animate --config $1
+python -m scripts.animate
